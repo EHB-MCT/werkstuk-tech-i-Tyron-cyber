@@ -1,7 +1,8 @@
-Zet hier de arduino code
-
-//tyron zinga//
-
+int buttonPin = 2;   
+int ledPin =  3;     
+ 
+int ledstate = LOW ;
+int lastButtonState;
 int currentButtonState;      
 
 boolean lightOn = false;
